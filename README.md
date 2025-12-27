@@ -44,8 +44,7 @@ button.danger{border-color:#ef4444;color:#ef4444;}
   <button class="danger" onclick="stopDictation()">⛔ Stop</button>
 </div>
 
-<div class="status" id="status">Idle</div>
-
+<div class="status" id="status"></div>
 <script>
 let state="IDLE", lines=[], li=0, phrases=[], pi=0, timer=null;
 
